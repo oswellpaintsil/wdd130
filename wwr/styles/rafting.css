@@ -10,20 +10,33 @@ body {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: var(--accent2-color);
+    opacity: 0.9;
+    margin-bottom: 1.0rem;
+}
+
 header nav {
     padding: 1%;
+    display: flex;
+    justify-content: space-around;
 }
 
 header nav a {
     text-decoration: none;
     font-family: "Poppins", serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
-    color: var(--secondary-color);
+    color: var(--primary-color);
+
 }
 
 .hero {
     position:relative;
+    margin-bottom: 1.0rem;
 }
 
 .hero img {
@@ -83,10 +96,76 @@ main section p {
     color: var(--secondary-color);
 }
 
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 1rem;
+    background-color: var(--accent2-color);
+}
+
+
 footer p {
+   
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--secondary-color);
+    color: var(--primary-color);
+    grid-column: 2;
 }
 
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    grid-column: 4;
+    align-items: center;
+} 
+
+footer nav img {
+    width: 50%;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+}
+
+.history p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.history h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Adventure h2 {
+    text-align: center;
+}
+
+.Adventure div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Adventure div figure img {
+    width: 100%;
+}
+
+.Adventure div figure figcaption {
+    text-align: center;
+}
+
+span img {
+    width: 25%;
+    margin: 2%;
+}
