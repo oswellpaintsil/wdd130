@@ -96,9 +96,15 @@ main section p {
     color: var(--secondary-color);
 }
 
+.contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
 footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 3fr 2fr;
     margin-top: 1rem;
     justify-content: space-around;
     align-items: center;
@@ -115,17 +121,32 @@ footer p {
     font-style: normal;
     color: var(--primary-color);
     grid-column: 2;
+    text-align: center;
 }
 
-footer nav {
+.sociallinks {
     display: flex;
     justify-content: space-around;
-    grid-column: 4;
+    grid-column: 3;
     align-items: center;
+    align-content: center;
 } 
 
-footer nav img {
+.sociallinks a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sociallinks a img {
     width: 50%;
+    align-items: center;
+    height: 50%;
+}
+
+footer a {
+    grid-column: 1;
+    text-align: center;
+    align-items: center;
 }
 
 section {
@@ -168,4 +189,140 @@ section {
 span img {
     width: 25%;
     margin: 2%;
+}
+
+.employees {
+    display: grid;
+}
+
+.employees h1 {
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--primary-color);
+}
+
+.comp-info {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.comp-info p {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--primary-color);
+}
+
+.employees figure img {
+    width: 100%;
+}
+
+.employees div {
+    display: grid;
+    row-gap: 1rem;
+}
+
+figcaption {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+    background-color: var(--accent2-color);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+form div {
+    padding: 1rem;
+    display: grid;
+    gap: 0.5rem;
+    align-content: start;
+}
+
+form h1 {
+    padding: 0.5rem;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--primary-color);
+}
+
+label, input, button, textarea {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+label {
+    color: var(--primary-color);
+    text-align: left;
+}
+
+textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  input[type="text"], input[type="email"], textarea {
+    height: 2.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    background-color: rgb(0, 92, 128);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    max-width: fit-content;
+}
+
+.purpose {
+    display: grid;
+}
+
+.purpose div {
+    display: flex;
+    padding: 0;
+}
+
+.msg {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.address {
+    display: grid;
+}
+
+.address p {
+    padding: 0;
+}
+
+.address div {
+    padding-top: 1rem;
+}
+
+iframe {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
 }
