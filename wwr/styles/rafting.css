@@ -3,6 +3,8 @@
     --secondary-color:#4464AD;
     --accent1-color:#F58F29;
     --accent2-color:#A4B0F5;
+    --textcolor:#000000;
+    --imagetext: #FFFFFF;
 }
 
 body {
@@ -30,7 +32,8 @@ header nav a {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--textcolor);
 
 }
 
@@ -49,7 +52,9 @@ header nav a {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    color: var(--accent1-color);
+    /* color: var(--accent1-color); */
+    color:var(--imagetext);
+
     position: absolute;
     top:0;
     left: 35%;
@@ -74,11 +79,13 @@ header nav a {
 
 .hero article p {
     background-color: var(--accent2-color);
-    opacity: 0.8;
+    opacity: 1;
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--textcolor);
+
     padding: 1rem;  
 }
 
@@ -86,14 +93,16 @@ main section h2 {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--textcolor);
 }
 
 main section p {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
+    color: var(--textcolor);
 }
 
 .contact-main {
@@ -119,7 +128,7 @@ footer p {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--primary-color);
+    color: var(--textcolor);
     grid-column: 2;
     text-align: center;
 }
@@ -147,6 +156,10 @@ footer a {
     grid-column: 1;
     text-align: center;
     align-items: center;
+    color: var(--textcolor);
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 section {
@@ -200,7 +213,8 @@ span img {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--textcolor);
 }
 
 .comp-info {
@@ -214,7 +228,8 @@ span img {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--textcolor);
 }
 
 .employees figure img {
@@ -230,7 +245,8 @@ figcaption {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--textcolor);
     text-align: center;
 }
 
@@ -254,7 +270,8 @@ form h1 {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--textcolor);
 }
 
 label, input, button, textarea {
@@ -264,7 +281,8 @@ label, input, button, textarea {
 }
 
 label {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--textcolor);
     text-align: left;
 }
 
@@ -324,5 +342,6 @@ input[type="checkbox"] {
 iframe {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    width: 100%;
+    width: 50%;
+    height: 70%;
 }
