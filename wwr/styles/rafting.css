@@ -32,7 +32,7 @@ header nav a {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    /* color: var(--primary-color); */
+
     color: var(--textcolor);
 
 }
@@ -52,7 +52,7 @@ header nav a {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    /* color: var(--accent1-color); */
+
     color:var(--imagetext);
 
     position: absolute;
@@ -83,7 +83,7 @@ header nav a {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
-    /* color: var(--primary-color); */
+
     color: var(--textcolor);
 
     padding: 1rem;  
@@ -93,7 +93,7 @@ main section h2 {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    /* color: var(--primary-color); */
+
     color: var(--textcolor);
 }
 
@@ -101,7 +101,7 @@ main section p {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
-    /* color: var(--secondary-color); */
+
     color: var(--textcolor);
 }
 
@@ -213,7 +213,7 @@ span img {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    /* color: var(--primary-color); */
+
     color: var(--textcolor);
 }
 
@@ -228,7 +228,7 @@ span img {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    /* color: var(--primary-color); */
+
     color: var(--textcolor);
 }
 
@@ -245,7 +245,7 @@ figcaption {
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
-    /* color: var(--primary-color); */
+
     color: var(--textcolor);
     text-align: center;
 }
@@ -270,7 +270,7 @@ form h1 {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
-    /* color: var(--primary-color); */
+
     color: var(--textcolor);
 }
 
@@ -281,7 +281,7 @@ label, input, button, textarea {
 }
 
 label {
-    /* color: var(--primary-color); */
+
     color: var(--textcolor);
     text-align: left;
 }
@@ -345,3 +345,69 @@ iframe {
     width: 50%;
     height: 70%;
 }
+
+.home-hero {
+    position: relative;
+}
+.home-hero h1 {
+    position: absolute;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 7em;
+    color: var(--textcolor);
+    background-color: white;
+    padding: 0;
+}
+
+.home-hero img {
+    display: block;
+    width: 100%;
+}
+
+.cta-button {
+    text-decoration: none;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--accent2-color);
+    color: var(--textcolor);
+}
+
+.home-layout {
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-top: 1rem;
+}
+
+.purpose-offering {
+
+    margin-right: 1rem;
+    display: grid;
+    row-gap: 2rem;
+}
+
+.purpose-offering img {
+    padding: 0;
+    margin: 0;
+
+}
+
+.purpose-offering figure {
+   display: flex;
+   align-items: center;
+   padding: 0;
+   margin: 0;
+}
+
+.purpose-offering figcaption {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding: 1.5rem;
+}
+
+
+
