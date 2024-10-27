@@ -409,5 +409,66 @@ iframe {
     padding: 1.5rem;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+th, td {
+    padding: 0.625rem;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1rem;
+}
 
+.trips div{
+    width: 100%;
+}
+
+.trips img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.trips figure {
+    display: grid;
+    padding: 0;
+    margin: 1rem;
+}
+
+.detail ul, .detail p {
+    text-align: left;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--textcolor);
+}
+
+h3, .detail p {
+    margin: 0;
+    padding: 0;
+}
+
+.detail h2, h3 {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    color: var(--textcolor);
+}
