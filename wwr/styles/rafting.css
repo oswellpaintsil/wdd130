@@ -368,7 +368,7 @@ iframe {
 .cta-button {
     text-decoration: none;
     font-family: "Lato", serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     background-color: var(--accent2-color);
     color: var(--textcolor);
@@ -423,8 +423,8 @@ th, td {
     border: 1px solid #ddd;
 }
 th {
-    background-color: #4CAF50;
-    color: white;
+    background-color: var(--accent2-color);
+    color: var(--textcolor);
 }
 tr:nth-child(even) {
     background-color: #f2f2f2;
